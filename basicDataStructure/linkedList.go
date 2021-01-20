@@ -89,4 +89,5 @@ func main() {
 	fmt.Printf("tail: %v\n", link.tail.key)
 	link.Reverse()
 	fmt.Println("\n==============================\n")
+	fmt.Println(&link.head)
 }
